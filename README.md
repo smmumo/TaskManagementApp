@@ -36,12 +36,12 @@ What's included ?
 - Functional testing
 - Integration testing
 
-⚙️ Tech Stack
-  Layer	Tool / Library
-  Framework	.NET 9
-  Messaging	Apache Kafka via Docker
-  Persistence	Entity Framework Core + SQL Server
-  Mediation	MediatR
-  Resilience	Polly
-  Observability	K6, InfluxDB, Grafana
-  DevOps	Docker, Docker Compose
+ ⚙️ Tech Stack
+  - Layer	Tool / Library
+  - Framework	.NET 9
+  - Messaging	Apache Kafka via Docker
+  - Persistence	Entity Framework Core + SQL Server
+  - Mediation	MediatR
+  - Resilience	Polly
+  - Observability	K6, InfluxDB, Grafana
+  - DevOps	Docker, Docker Compose
