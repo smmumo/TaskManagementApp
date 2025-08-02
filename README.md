@@ -1,6 +1,8 @@
-# Clean Architecture Template
+# Task Management Using Clean Architecture AND CQRS  
 
-What's included in the template?
+Event-driven task management system built using .NET 9, and Postgress, following clean architecture principles
+
+What's included ?
 
 - SharedKernel project with common Domain-Driven Design abstractions.
 - Domain layer with sample entities.
@@ -18,9 +20,10 @@ What's included in the template?
 - Testing projects
   - Architecture testing
 
-I'm open to hearing your feedback about the template and what you'd like to see in future iterations.
-
-If you're ready to learn more, check out [**Pragmatic Clean Architecture**](https://www.milanjovanovic.tech/pragmatic-clean-architecture?utm_source=ca-template):
+- API: Exposes REST endpoints to interact with tasks (Create, Update, Complete).
+- Application: Contains CQRS command/query handlers and business logic.
+- Domain: Defines aggregates, entities, and encapsulates domain logic.
+- Infrastructure: Handles  SQL persistence, and external dependencies
 
 - Domain-Driven Design
 - Role-based authorization
@@ -33,4 +36,12 @@ If you're ready to learn more, check out [**Pragmatic Clean Architecture**](http
 - Functional testing
 - Integration testing
 
-Stay awesome!
+⚙️ Tech Stack
+  Layer	Tool / Library
+  Framework	.NET 9
+  Messaging	Apache Kafka via Docker
+  Persistence	Entity Framework Core + SQL Server
+  Mediation	MediatR
+  Resilience	Polly
+  Observability	K6, InfluxDB, Grafana
+  DevOps	Docker, Docker Compose
